@@ -1,12 +1,5 @@
 % Demo for "Forgery Authentication in Extreme Wide-angle Lens Using Distortion Cue and Fake Saliency Map" 
-% AUTHOR: Huazhu Fu
-%
-% School of Computer Science and Technology, 
-% Tianjin University, Tianjin, 300072 China
-% email : hzfu@tju.edu.cn
-% www : http://cs.tju.edu.cn/orgs/vision/~hzfu/homepage.html
-%
-% Please feel free to contact me with the above email
+
 
 close all; clear; clc;
 % Read data
@@ -82,11 +75,5 @@ if Grave_K~=0
     fake_saliency=fake_saliency.*(0.9/max(max(fake_saliency)));
 end
 figure,imshow(fake_saliency), colormap(hot); title('Fake saliency map');
-
-% forgery object segmentation
-dlmwrite('Saliency_map.txt',fake_saliency,'delimiter', ' '); % txt file is the fake saliency map.
-imwrite(orgimage,'orgimage.ppm','ppm');
-eval(['!GC_maxflow.exe orgimage.ppm Saliency_map.txt 8']);
-figure, imshow('fake_segmentation.ppm'); title('Segmentation');
 
 
