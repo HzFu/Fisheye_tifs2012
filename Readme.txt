@@ -13,11 +13,8 @@ This file will show you:
 
 HOW TO USE
 
-1. generate the "GC_maxflow.exe" from maxflow_GC using C++. 
-(You can directly use the "GC_maxflow.exe" file compiled by author in Win32.)
-2. run the 'Demo_saliency.m'. 
+run the 'Demo_saliency.m'. 
 
-This will run our code on a default faked image. 
 There are 8 examples in "./ForensicImage" file. 
 Change the image path for more demos:
 "savefile = 'ForensicImage/example';"
