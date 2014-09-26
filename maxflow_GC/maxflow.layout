@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="README.TXT" open="0" top="0" tabpos="2">
+		<Cursor position="3525" topLine="73" />
+	</File>
+	<File name="block.h" open="0" top="0" tabpos="0">
+		<Cursor position="2498" topLine="245" />
+	</File>
+	<File name="graph.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1287" topLine="0" />
+	</File>
+	<File name="graph.h" open="0" top="0" tabpos="0">
+		<Cursor position="886" topLine="45" />
+	</File>
+	<File name="instances.inc" open="0" top="0" tabpos="0">
+		<Cursor position="234" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="259" topLine="0" />
+	</File>
+	<File name="maxflow.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="101" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
