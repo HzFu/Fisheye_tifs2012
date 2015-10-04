@@ -40,3 +40,5 @@ FILE EXPLANATIONS
  Line2image.m       :Add saliency weight of a line into the fake saliency map.
    
 -------------------------------------------------------------------------------
+
+If you find any bugs, please contact Huazhu Fu (huazhufu@gmail.com).
